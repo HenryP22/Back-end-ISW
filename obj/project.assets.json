@@ -7468,11 +7468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\tutofinder-app-web\\TutoFinder\\TutoFinder.csproj",
+      "projectUniqueName": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\Back-end-ISW\\TutoFinder.csproj",
       "projectName": "TutoFinder",
-      "projectPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\tutofinder-app-web\\TutoFinder\\TutoFinder.csproj",
+      "projectPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\Back-end-ISW\\TutoFinder.csproj",
       "packagesPath": "C:\\Users\\henrr\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\tutofinder-app-web\\TutoFinder\\obj\\",
+      "outputPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\Back-end-ISW\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\henrr\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\tutofinder-app-web\\TutoFinder\\TutoFinder.csproj": {}
+    "D:\\github\\Back-end-ISW\\TutoFinder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\tutofinder-app-web\\TutoFinder\\TutoFinder.csproj": {
+    "D:\\github\\Back-end-ISW\\TutoFinder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\tutofinder-app-web\\TutoFinder\\TutoFinder.csproj",
+        "projectUniqueName": "D:\\github\\Back-end-ISW\\TutoFinder.csproj",
         "projectName": "TutoFinder",
-        "projectPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\tutofinder-app-web\\TutoFinder\\TutoFinder.csproj",
-        "packagesPath": "C:\\Users\\henrr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\tutofinder-app-web\\TutoFinder\\obj\\",
+        "projectPath": "D:\\github\\Back-end-ISW\\TutoFinder.csproj",
+        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "outputPath": "D:\\github\\Back-end-ISW\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\henrr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -79,6 +82,22 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[3.1.3, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.4.8, )"
+            },
+            "SpecFlow.Assist.Dynamic": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "SpecFlow.NUnit": {
+              "target": "Package",
+              "version": "[3.4.8, )"
+            },
+            "SpecFlow.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[3.4.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

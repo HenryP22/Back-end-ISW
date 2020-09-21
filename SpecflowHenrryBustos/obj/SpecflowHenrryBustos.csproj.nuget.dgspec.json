@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\SpecflowHenrryBustos\\SpecflowHenrryBustos.csproj": {}
+    "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\Back-end-ISW\\SpecflowHenrryBustos\\SpecflowHenrryBustos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\SpecflowHenrryBustos\\SpecflowHenrryBustos.csproj": {
+    "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\Back-end-ISW\\SpecflowHenrryBustos\\SpecflowHenrryBustos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\SpecflowHenrryBustos\\SpecflowHenrryBustos.csproj",
+        "projectUniqueName": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\Back-end-ISW\\SpecflowHenrryBustos\\SpecflowHenrryBustos.csproj",
         "projectName": "SpecflowHenrryBustos",
-        "projectPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\SpecflowHenrryBustos\\SpecflowHenrryBustos.csproj",
+        "projectPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\Back-end-ISW\\SpecflowHenrryBustos\\SpecflowHenrryBustos.csproj",
         "packagesPath": "C:\\Users\\henrr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\SpecflowHenrryBustos\\obj\\",
+        "outputPath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\Back-end-ISW\\SpecflowHenrryBustos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\henrr\\AppData\\Roaming\\NuGet\\NuGet.Config",

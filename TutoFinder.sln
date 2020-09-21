@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TutoFinder", "TutoFinder.csproj", "{A6F46C2B-65AC-417F-B47F-A17F7EC90EDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowHenrryBustos", "..\SpecflowHenrryBustos\SpecflowHenrryBustos.csproj", "{54286B58-7F3E-46D4-8E2B-37A5B15EE6E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpecflowHenrryBustos", "SpecflowHenrryBustos\SpecflowHenrryBustos.csproj", "{7B3E6DBD-FCBF-4542-8EFD-C1F5E029C9DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{A6F46C2B-65AC-417F-B47F-A17F7EC90EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6F46C2B-65AC-417F-B47F-A17F7EC90EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6F46C2B-65AC-417F-B47F-A17F7EC90EDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{54286B58-7F3E-46D4-8E2B-37A5B15EE6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{54286B58-7F3E-46D4-8E2B-37A5B15EE6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{54286B58-7F3E-46D4-8E2B-37A5B15EE6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{54286B58-7F3E-46D4-8E2B-37A5B15EE6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3E6DBD-FCBF-4542-8EFD-C1F5E029C9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3E6DBD-FCBF-4542-8EFD-C1F5E029C9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3E6DBD-FCBF-4542-8EFD-C1F5E029C9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3E6DBD-FCBF-4542-8EFD-C1F5E029C9DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

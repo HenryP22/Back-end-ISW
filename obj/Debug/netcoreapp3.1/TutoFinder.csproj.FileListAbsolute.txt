@@ -270,12 +270,6 @@ C:\Users\henrr\OneDrive\Documents\GitHub\tutofinder-app-web\TutoFinder\obj\Debug
 C:\Users\henrr\OneDrive\Documents\GitHub\tutofinder-app-web\TutoFinder\obj\Debug\netcoreapp3.1\TutoFinder.dll
 C:\Users\henrr\OneDrive\Documents\GitHub\tutofinder-app-web\TutoFinder\obj\Debug\netcoreapp3.1\TutoFinder.pdb
 C:\Users\henrr\OneDrive\Documents\GitHub\tutofinder-app-web\TutoFinder\obj\Debug\netcoreapp3.1\TutoFinder.genruntimeconfig.cache
-C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.csprojAssemblyReference.cache
-C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.AssemblyInfoInputs.cache
-C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.AssemblyInfo.cs
-C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.csproj.CoreCompileInputs.cache
-C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -338,6 +332,12 @@ C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\bin\Debug\netcoreapp3.1\ru
 C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.csprojAssemblyReference.cache
+C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.AssemblyInfoInputs.cache
+C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.AssemblyInfo.cs
+C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.csproj.CoreCompileInputs.cache
+C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.RazorTargetAssemblyInfo.cache
 C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.csproj.CopyComplete
 C:\Users\henrr\OneDrive\Documents\GitHub\Back-end-ISW\obj\Debug\netcoreapp3.1\staticwebassets\TutoFinder.StaticWebAssets.Manifest.cache

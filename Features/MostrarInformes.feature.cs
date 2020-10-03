@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace SpectflowNetCore.Features
+namespace TutoFinder.Features
 {
     using TechTalk.SpecFlow;
     using System;
@@ -20,22 +20,22 @@ namespace SpectflowNetCore.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("Informes")]
-    public partial class InformesFeature
+    [NUnit.Framework.DescriptionAttribute("MostrarInformes")]
+    public partial class MostrarInformesFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "Informes.feature"
+#line 1 "MostrarInformes.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "Informes", "\tCOMO padre de familia \r\n\tQUIERO poder revisar los informes de mi hijo \r\n\tPARA po" +
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "MostrarInformes", "\tCOMO padre de familia \r\n\tQUIERO poder revisar los informes de mi hijo \r\n\tPARA po" +
                     "der conocer detalladamente su desempeño académico", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
@@ -75,14 +75,14 @@ namespace SpectflowNetCore.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Informe no disponible")]
+        [NUnit.Framework.DescriptionAttribute("El informe no esta subido")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void InformeNoDisponible()
+        public virtual void ElInformeNoEstaSubido()
         {
             string[] tagsOfScenario = new string[] {
                     "mytag"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Informe no disponible", null, tagsOfScenario, argumentsOfScenario);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("El informe no esta subido", null, tagsOfScenario, argumentsOfScenario);
 #line 7
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -107,10 +107,10 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("el padre de familia se encuentra en la sección “Mis clases”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 9
- testRunner.When("se dirija a los detalles de una clase y no haya información", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("se dirija a los detalles de una clase y no hay informacion", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 10
- testRunner.Then("no podrá descargar el informe del alumno y se mostrara el mensaje “informe no dis" +
+ testRunner.Then("no podra descargar el informe del alumno y se mostrara el mensaje “informe no dis" +
                         "ponible”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -118,14 +118,14 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Informe disponible")]
+        [NUnit.Framework.DescriptionAttribute("El informe ya esta subido")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void InformeDisponible()
+        public virtual void ElInformeYaEstaSubido()
         {
             string[] tagsOfScenario = new string[] {
                     "mytag"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Informe disponible", null, tagsOfScenario, argumentsOfScenario);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("El informe ya esta subido", null, tagsOfScenario, argumentsOfScenario);
 #line 12
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -153,21 +153,21 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("se dirija a los detalles de la clase y el informe ha sido subido", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 15
- testRunner.Then("podrá visualizar el nombre del informe y un botón para descargarlo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("podra visualizar el nombre del informe y al lado un botón para descargarlo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Notificar correccion de informe")]
+        [NUnit.Framework.DescriptionAttribute("El informe ya esta subido pero no es correcto")]
         [NUnit.Framework.CategoryAttribute("mytag")]
-        public virtual void NotificarCorreccionDeInforme()
+        public virtual void ElInformeYaEstaSubidoPeroNoEsCorrecto()
         {
             string[] tagsOfScenario = new string[] {
                     "mytag"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Notificar correccion de informe", null, tagsOfScenario, argumentsOfScenario);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("El informe ya esta subido pero no es correcto", null, tagsOfScenario, argumentsOfScenario);
 #line 17
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -195,12 +195,11 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("y el informe ya está disponible", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 20
- testRunner.When("el padre determine que la información no es correcta y seleccione la opción de no" +
-                        "tificar docente", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("el padre determine que el archivo no cumple con lo esperado y seleccione la opció" +
+                        "n notificar docente", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 21
- testRunner.Then("se realizara él envió de una notificación al docente solicitando la corrección de" +
-                        "l informe.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("se enviara una notificación al docente solicitando la corrección del informe.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

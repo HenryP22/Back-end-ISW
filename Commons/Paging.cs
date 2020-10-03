@@ -23,7 +23,7 @@ namespace TutoFinder.Commons
             {
                 result.Pages = Convert.ToInt32(
                     Math.Ceiling(
-                        Convert.ToDecimal(result.Total) / take
+                        Convert.ToDecimal(result.Total) / 1
                     )
                 );
 

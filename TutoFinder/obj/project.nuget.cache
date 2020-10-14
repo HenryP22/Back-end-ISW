@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/YBftDx6TcS+dK2cFcbLlu+QALb05dl7Gv3mkpSRA8v1Ynw5RnhcnsYFK5POlM6Af2XJ8bEnOWXUpTZ1kMJO9A==",
+  "dgSpecHash": "n90eH7LCh9gGyOnIqJZCXwEyP0yD/XI0VDZ2KglPyxeuhlnLo5AQBVyCb19QSu0MNHZnQODFy8VjUKn78BPh+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\tutofinder-app-web\\TutoFinder\\TutoFinder.csproj",
+  "projectFilePath": "C:\\Users\\henrr\\OneDrive\\Documents\\GitHub\\Back-end-ISW\\TutoFinder\\TutoFinder.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\henrr\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\henrr\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

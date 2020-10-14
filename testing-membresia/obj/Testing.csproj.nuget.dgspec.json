@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "D:\\testings\\testing-informe\\Testing.csproj": {}
+    "D:\\testings\\Testing\\Testing.csproj": {}
   },
   "projects": {
     "D:\\github\\Back-end-ISW\\TutoFinder.csproj": {
@@ -130,14 +130,14 @@
         }
       }
     },
-    "D:\\testings\\testing-informe\\Testing.csproj": {
+    "D:\\testings\\Testing\\Testing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\testings\\testing-informe\\Testing.csproj",
+        "projectUniqueName": "D:\\testings\\Testing\\Testing.csproj",
         "projectName": "Testing",
-        "projectPath": "D:\\testings\\testing-informe\\Testing.csproj",
+        "projectPath": "D:\\testings\\Testing\\Testing.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\testings\\testing-informe\\obj\\",
+        "outputPath": "D:\\testings\\Testing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

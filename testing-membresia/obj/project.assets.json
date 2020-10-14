@@ -8553,11 +8553,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\testings\\testing-informe\\Testing.csproj",
-      "projectName": "Testing",
-      "projectPath": "D:\\testings\\testing-informe\\Testing.csproj",
+      "projectUniqueName": "D:\\testings\\testing-membresia\\testing-membresia.csproj",
+      "projectName": "testing-membresia",
+      "projectPath": "D:\\testings\\testing-membresia\\testing-membresia.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\testings\\testing-informe\\obj\\",
+      "outputPath": "D:\\testings\\testing-membresia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

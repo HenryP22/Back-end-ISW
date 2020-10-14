@@ -340,3 +340,6 @@ D:\github\Back-end-ISW\bin\Debug\netcoreapp3.1\Utf8Json.dll
 D:\github\Back-end-ISW\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\github\Back-end-ISW\bin\Debug\netcoreapp3.1\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
 D:\github\Back-end-ISW\bin\Debug\netcoreapp3.1\nunit.framework.dll
+D:\github\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.csproj.CoreCompileInputs.cache
+D:\github\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.MvcApplicationPartsAssemblyInfo.cs
+D:\github\Back-end-ISW\obj\Debug\netcoreapp3.1\TutoFinder.MvcApplicationPartsAssemblyInfo.cache

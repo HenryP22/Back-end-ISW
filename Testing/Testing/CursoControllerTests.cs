@@ -84,7 +84,6 @@ namespace Testing.Testing
 
             //Prueba
 
-            int id = 1;
             var controller = new CursoServiceImpl(context, mapper);
 
             await controller.Create(cursoCreateDTO);
@@ -178,7 +177,7 @@ namespace Testing.Testing
             Assert.IsTrue(respuesta);
         }
         [TestMethod]
-        public async Task CursoNoExiste()
+        public void CursoNoExiste()
         {
             //Preparación
 

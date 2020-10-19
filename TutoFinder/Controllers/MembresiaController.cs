@@ -14,12 +14,10 @@ namespace TutoFinder.Controllers
     public class MembresiaController : ControllerBase
     {
         private readonly MembresiaService _MembresiaService;
-        private readonly DocenteService _DocenteService;
 
-        public MembresiaController(MembresiaService MembresiaService, DocenteService DocenteService)
+        public MembresiaController(MembresiaService MembresiaService)
         {
             _MembresiaService = MembresiaService;
-            _DocenteService = DocenteService;
         }
         [HttpGet]
         public async Task<ActionResult<DataCollection<MembresiaDto>>> GetAll(int page, int take)

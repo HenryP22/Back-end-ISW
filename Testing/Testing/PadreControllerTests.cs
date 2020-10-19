@@ -106,7 +106,6 @@ namespace Testing.Testing
             
             //Prueba
 
-            int id = 1;
             var controller = new PadreServiceImpl(context, mapper);
 
             await controller.Create(PadreCreateDTO);
@@ -219,7 +218,7 @@ namespace Testing.Testing
             Assert.IsTrue(respuesta);
         }
         [TestMethod]
-        public async Task PadreNoExiste()
+        public void PadreNoExiste()
         {
             //Preparación
 

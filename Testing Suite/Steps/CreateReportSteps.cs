@@ -16,19 +16,19 @@ namespace Testing_Suite.Steps
         [Given(@"the tutor has to create an inform after every tutorship")]
         public void GivenTheTutorHasToCreateAnInformAfterEveryTutorship()
         {
-            
+            //No implementado
         }
 
         [When(@"the tutorship has ended")]
         public void WhenTheTutorshipHasEnded()
         {
-           
+            //No implementado
         }
 
         [Then(@"the “Realizar reporte” option will appear\.")]
         public void ThenTheRealizarReporteOptionWillAppear_()
         {
-            
+            //No implementado
         }
 
         [Given(@"the tutor wants to edit wrong information in the report")]
@@ -82,7 +82,7 @@ namespace Testing_Suite.Steps
         [When(@"they go to the option “anterior”")]
         public void WhenTheyGoToTheOptionAnterior()
         {
-            
+            //No implementado
         }
 
         [Then(@"the report interface will appear with the previous information\.")]
@@ -130,37 +130,37 @@ namespace Testing_Suite.Steps
         [Given(@"the tutor wants to send the report")]
         public void GivenTheTutorWantsToSendTheReport()
         {
-            
+            //No implementado
         }
 
         [When(@"they finish editing the report, they need to select the “siguiente” option")]
         public void WhenTheyFinishEditingTheReportTheyNeedToSelectTheSiguienteOption()
         {
-            
+            //No implementado
         }
 
         [Then(@"the interface with the filled report will appear so they can verify the info so they can select the “Enviar” option\.")]
         public void ThenTheInterfaceWithTheFilledReportWillAppearSoTheyCanVerifyTheInfoSoTheyCanSelectTheEnviarOption_()
         {
-            
+            //No implementado
         }
 
         [Given(@"the parent hasn't understood completely the report")]
         public void GivenTheParentHasnTUnderstoodCompletelyTheReport()
         {
-            
+            //No implementado
         }
 
         [When(@"they make a complain")]
         public void WhenTheyMakeAComplain()
         {
-            
+            //No implementado
         }
 
         [Then(@"the tutor has to edit it so the client has agreed\.")]
         public void ThenTheTutorHasToEditItSoTheClientHasAgreed_()
         {
-            
+            //No implementado
         }
 
     }

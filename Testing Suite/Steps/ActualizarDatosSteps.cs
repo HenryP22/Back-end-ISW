@@ -49,21 +49,21 @@ namespace Testing_Suite.Steps
         [Given(@"la contraseña de ingreso")]
         public void GivenLaContrasenaDeIngreso()
         {
-            
+            //No implementado
         }
-        
+
         [When(@"quiera actualizar sus datos")]
         public void WhenQuieraActualizarSusDatos()
         {
-            
+            //No implementado
         }
-        
+
         [When(@"quiera confirmar estos cambios")]
         public void WhenQuieraConfirmarEstosCambios()
         {
-            
+            //No implementado
         }
-        
+
         [When(@"se da por terminado la actualización")]
         public async Task WhenSeDaPorTerminadoLaActualizacion()
         {
@@ -111,19 +111,19 @@ namespace Testing_Suite.Steps
         [Then(@"la aplicación le permitirá escribir sobre estos")]
         public void ThenLaAplicacionLePermitiraEscribirSobreEstos()
         {
-            
+            //No implementado
         }
 
         [Then(@"la aplicación me pedirá ingresar mi contrasena actual")]
         public void ThenLaAplicacionMePediraIngresarMiContrasenaActual()
         {
-            
+            //No implementado
         }
 
         [Then(@"me enviará un correo para informarme de los cambios realizados para que como docente pueda verificar si hice yo este cambio")]
         public void ThenMeEnviaraUnCorreoParaInformarmeDeLosCambiosRealizadosParaQueComoDocentePuedaVerificarSiHiceYoEsteCambio()
         {
-            
+            //No implementado
         }
     }
 }

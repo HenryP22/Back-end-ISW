@@ -33,25 +33,25 @@ namespace Testing_Suite.Steps
         [When(@"inicie sesión los primeros días")]
         public void WhenInicieSesionLosPrimerosDias()
         {
-            
+            //No implementado
         }
 
         [Then(@"se le mostrará una promoción de prueba de la membresía")]
         public void ThenSeLeMostraraUnaPromocionDePruebaDeLaMembresia()
         {
-            
+            //No implementado
         }
 
         [Given(@"el docente está interesado en suscribirse al periodo de prueba")]
         public void GivenElDocenteEstaInteresadoEnSuscribirseAlPeriodoDePrueba()
         {
-            
+            //No implementado
         }
 
         [When(@"seleccione “Aceptar” en la promoción")]
         public void WhenSeleccioneAceptarEnLaPromocion()
         {
-            
+            //No implementado
         }
 
         [Then(@"se le pedirá sus datos personales y de su tarjeta para iniciar el periodo de prueba")]
@@ -69,37 +69,37 @@ namespace Testing_Suite.Steps
         [Given(@"un docente quiere realizar la compra de una membresía por medio de la página web")]
         public void GivenUnDocenteQuiereRealizarLaCompraDeUnaMembresiaPorMedioDeLaPaginaWeb()
         {
-            
+            //No implementado
         }
 
         [When(@"El docente iniciará sesión a la web, luego seleccionará la opción “Obtener membresía”")]
         public void WhenElDocenteIniciaraSesionALaWebLuegoSeleccionaraLaOpcionObtenerMembresia()
         {
-            
+            //No implementado
         }
 
         [Then(@"e mostrará una interfaz donde se le pedirá al docente que seleccione la tarjeta anteriormente registrada")]
         public void ThenEMostraraUnaInterfazDondeSeLePediraAlDocenteQueSeleccioneLaTarjetaAnteriormenteRegistrada()
         {
-            
+            //No implementado
         }
 
         [Then(@"luego de ello colocara el cvc, asimismo escogerá el plan de membresía que más le convenga")]
         public void ThenLuegoDeElloColocaraElCvcAsimismoEscogeraElPlanDeMembresiaQueMasLeConvenga()
         {
-            
+            //No implementado
         }
 
         [Then(@"finalmente seleccionará la opción “comprar”")]
         public void ThenFinalmenteSeleccionaraLaOpcionComprar()
         {
-            
+            //No implementado
         }
 
         [Given(@"el docente desea continuar con la membresía activa")]
         public void GivenElDocenteDeseaContinuarConLaMembresiaActiva()
         {
-            
+            //No implementado
         }
 
         [When(@"este quiera prolongar su suscripción, se dirigirá a la opción “Mi Perfil”")]
@@ -168,13 +168,13 @@ namespace Testing_Suite.Steps
         [Given(@"Un docente ya no quiere contar con la membresía")]
         public void GivenUnDocenteYaNoQuiereContarConLaMembresia()
         {
-            
+            //No implementado
         }
 
         [When(@"el docente iniciará sesión en la web, entonces se dirigirá a su perfil de docente")]
         public void WhenElDocenteIniciaraSesionEnLaWebEntoncesSeDirigiraASuPerfilDeDocente()
         {
-            
+            //No implementado
         }
 
         [Then(@"se le mostrará el status de su membresía con la opción de “Cancelar Membresía”")]

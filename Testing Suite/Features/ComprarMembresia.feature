@@ -12,7 +12,7 @@ Scenario: Periodo de prueba
 @mytag
 Scenario: Aceptar periodo de prueba
 	Given el docente está interesado en suscribirse al periodo de prueba
-	When seleccione "Aceptar" en la promoción
+	When seleccione “Aceptar” en la promoción
 	Then  se le pedirá sus datos personales y de su tarjeta para iniciar el periodo de prueba
 
 @mytag
@@ -26,11 +26,11 @@ Scenario: Comprar Membresía
 @mytag
 Scenario: Prolongar Membresía
 	Given el docente desea continuar con la membresía activa
-	When este quiera prolongar su suscripción, se dirigirá a la opción "Mi Perfil" 
-	Then  en la sección de status de la membresía, el docente podrá seleccionar la opción "Renovar Membresía"
+	When este quiera prolongar su suscripción, se dirigirá a la opción “Mi Perfil” 
+	Then  en la sección de status de la membresía, el docente podrá seleccionar la opción “Renovar Membresía”
 
 @mytag
 Scenario: Cancelar Membresía
 	Given Un docente ya no quiere contar con la membresía
 	When el docente iniciará sesión en la web, entonces se dirigirá a su perfil de docente
-	Then  se le mostrará el status de su membresía con la opción de "Cancelar Membresía"
+	Then  se le mostrará el status de su membresía con la opción de “Cancelar Membresía”

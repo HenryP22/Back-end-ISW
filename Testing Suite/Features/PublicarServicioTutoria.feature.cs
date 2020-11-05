@@ -107,8 +107,8 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("el docente desea registrar la tutoría a brindar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 9
- testRunner.When("el docente iniciara sesión en la web y se dirigirá a la opción“Registrar Tutoría”" +
-                        "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("el docente iniciara sesión en la web y se dirigirá a la opción “Registrar Tutoría" +
+                        "”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 10
  testRunner.Then("se le mostrará una interfaz donde deberá escoger el nivel académico", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -153,15 +153,15 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("el docente desea publicar la tutoría a brindar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 16
- testRunner.When("ya haya ingresado todos los datos de la tutoría, este se dirigirá a la opción \"Si" +
-                        "guiente\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("ya haya ingresado todos los datos de la tutoría, este se dirigirá a la opción “Si" +
+                        "guiente”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 17
  testRunner.Then("se le mostrará una interfaz con los datos de la tutoría para que pueda revisar si" +
                         " están correctos", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 18
- testRunner.And("es así seleccionará la opción \"Publicar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("es así seleccionará la opción “Publicar”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -201,7 +201,7 @@ this.ScenarioInitialize(scenarioInfo);
                         "uiere brindar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 23
- testRunner.When("este se diriga a la opción \"anterior\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("este se diriga a la opción “anterior”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 24
  testRunner.Then("se le mostrará la interfaz de registro con sus datos anteriores", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -249,7 +249,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Then("se mostrará un interfaz  donde el docente escogerá la tutoría publicada", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 31
- testRunner.And("finalmente seleccionará la opción ”eliminar”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("finalmente seleccionará la opción “eliminar”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             }
             this.ScenarioCleanup();

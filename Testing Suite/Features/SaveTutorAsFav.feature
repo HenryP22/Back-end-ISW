@@ -5,15 +5,15 @@
  
 Scenario: The tutor isn't marked
  Given the loged in parent
-  When enters the option "buscar clases" and founds a tutor they like 
+  When enters the option “Buscar clases” and founds a tutor they like 
   Then they can mark the tutor as favorite.
 
 Scenario: The tutor is marked
  Given the loged in parent 
- When enters the option "buscar clases" and founds a tutor they like
+ When enters the option “Buscar clases” and founds a tutor they like
  Then  they can't mark the tutor as favorite again.
 
 Scenario: "View favorite tutors list"
  Given the parent wants to check their favorite tutors
- When they enter the "tutorias" section and select the "favoritos" filter
+ When they enter the “Tutorías” section and select the “Favoritos” filter
  Then they will get a list of all the favorite tutors with their detailed info.

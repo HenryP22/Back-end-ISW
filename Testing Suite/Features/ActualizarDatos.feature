@@ -14,7 +14,7 @@ Scenario: Sobreescritura de datos
 Scenario: Confirmación mediante contraseña
     Given que ya actualicé mis datos
 	When quiera confirmar estos cambios
-	Then la aplicación me pedirá ingresar mi contraseña actual
+	Then la aplicación me pedirá ingresar mi contrasena actual
 
 @mytag
 Scenario: Confirmación por correo

@@ -104,7 +104,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the loged in parent", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 8
-  testRunner.When("enters the option \"buscar clases\" and founds a tutor they like", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+  testRunner.When("enters the option “Buscar clases” and founds a tutor they like", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 9
   testRunner.Then("they can mark the tutor as favorite.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -144,7 +144,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the loged in parent", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 13
- testRunner.When("enters the option \"buscar clases\" and founds a tutor they like", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("enters the option “Buscar clases” and founds a tutor they like", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 14
  testRunner.Then("they can\'t mark the tutor as favorite again.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -184,7 +184,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the parent wants to check their favorite tutors", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 18
- testRunner.When("they enter the \"tutorias\" section and select the \"favoritos\" filter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("they enter the “Tutorías” section and select the “Favoritos” filter", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 19
  testRunner.Then("they will get a list of all the favorite tutors with their detailed info.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

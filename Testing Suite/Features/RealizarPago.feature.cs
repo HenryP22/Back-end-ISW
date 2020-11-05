@@ -109,11 +109,11 @@ this.ScenarioInitialize(scenarioInfo);
 #line hidden
 #line 9
  testRunner.When("seleccione el usuario de su hijo, verifica las tutorias que realizo y seleccione " +
-                        "la opcion \"realizar pago\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+                        "la opcion “Realizar pago”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 10
  testRunner.Then("se mostrará una interfaz donde se le pedirá al padre que seleccione la tarjeta re" +
-                        "gistrada anteriormente, completar el campo cvc y seleccionar la opción \"pagar\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+                        "gistrada anteriormente, completar el campo cvc y seleccionar la opción “Pagar”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -197,7 +197,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("este se encuentre en la seccion de pago", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 22
- testRunner.Then("se le mostrará la opcion \"Cancelar\" si es que el padre no se encuentra conforme c" +
+ testRunner.Then("se le mostrará la opcion “Cancelar” si es que el padre no se encuentra conforme c" +
                         "on algun dato de pago", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }

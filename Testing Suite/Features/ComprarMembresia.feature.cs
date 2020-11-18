@@ -149,7 +149,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("el docente está interesado en suscribirse al periodo de prueba", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 15
- testRunner.When("seleccione \"Aceptar\" en la promoción", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("seleccione “Aceptar” en la promoción", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 16
  testRunner.Then("se le pedirá sus datos personales y de su tarjeta para iniciar el periodo de prue" +
@@ -243,11 +243,11 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("el docente desea continuar con la membresía activa", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 29
- testRunner.When("este quiera prolongar su suscripción, se dirigirá a la opción \"Mi Perfil\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("este quiera prolongar su suscripción, se dirigirá a la opción “Mi Perfil”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 30
- testRunner.Then("en la sección de status de la membresía, el docente podrá seleccionar la opción \"" +
-                        "Renovar Membresía\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("en la sección de status de la membresía, el docente podrá seleccionar la opción “" +
+                        "Renovar Membresía”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -290,7 +290,7 @@ this.ScenarioInitialize(scenarioInfo);
                         "", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 36
- testRunner.Then("se le mostrará el status de su membresía con la opción de \"Cancelar Membresía\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("se le mostrará el status de su membresía con la opción de “Cancelar Membresía”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

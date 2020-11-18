@@ -6,8 +6,8 @@
 @mytag
 Scenario: Realizar Pago
 	Given un padre desea realizar el pago de una tutoria inscrita pro su hijo en la pagina web
-	When seleccione el usuario de su hijo, verifica las tutorias que realizo y seleccione la opcion "realizar pago"
-	Then se mostrará una interfaz donde se le pedirá al padre que seleccione la tarjeta registrada anteriormente, completar el campo cvc y seleccionar la opción "pagar"
+	When seleccione el usuario de su hijo, verifica las tutorias que realizo y seleccione la opcion “Realizar pago”
+	Then se mostrará una interfaz donde se le pedirá al padre que seleccione la tarjeta registrada anteriormente, completar el campo cvc y seleccionar la opción “Pagar”
 
 @mytag
 Scenario: Comprobante
@@ -19,4 +19,4 @@ Scenario: Comprobante
 Scenario: Cancelar el pago
 	Given el padre ya no quiere realizar el pago
 	When este se encuentre en la seccion de pago
-	Then se le mostrará la opcion "Cancelar" si es que el padre no se encuentra conforme con algun dato de pago
+	Then se le mostrará la opcion “Cancelar” si es que el padre no se encuentra conforme con algun dato de pago

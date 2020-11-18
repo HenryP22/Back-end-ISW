@@ -66,8 +66,7 @@ namespace TutoFinder.Service.Impl
         public async Task<InformeDto> GetById(int id)
         {
             return _mapper.Map<InformeDto>(
-                await _context.Informes.Include(x => x.Tutoria).ThenInclude(x => x.Alumno).ThenInclude(x => x.Padre)
-                .Include(x => x.Tutoria).ThenInclude(x => x.Curso)
+                await _context.Informes.Include(x => x.Tutoria)
                 .SingleAsync(x => x.InformeId == id));
         }
         public bool Existencia(int id)

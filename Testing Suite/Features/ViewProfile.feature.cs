@@ -104,7 +104,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the user wants to verify their registered profile", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 8
-  testRunner.When("pressing the \"Mi perfil\" button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+  testRunner.When("pressing the “Mi Perfil” button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 9
   testRunner.Then("they\'ll be able to check their information.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -141,7 +141,7 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 12
- testRunner.Given("the user is in the \"Mi Perfil\" option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("the user is in the “Mi Perfil” option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 13
  testRunner.When("they want to access their detailed information", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
@@ -184,7 +184,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the user wants to see their recent activities", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 18
- testRunner.When("the user will press the \"Mi Perfil\" option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("the user will press the “Mi Perfil” option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 19
  testRunner.Then("a list of activities such as tutor services and their payments will appear.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

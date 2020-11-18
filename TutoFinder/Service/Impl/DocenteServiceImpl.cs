@@ -73,9 +73,9 @@ namespace TutoFinder.Service.Impl
                 .AsQueryable()
                 .PagedAsync(page, take));
         }
-        public async Task<DocenteDtoPresentar> GetById(int id)
+        public async Task<DocenteDto> GetById(int id)
         {
-            return _mapper.Map<DocenteDtoPresentar>(
+            return _mapper.Map<DocenteDto>(
                 await _context.Docentes.SingleAsync(x => x.DocenteId == id));
         }
         public bool Existencia(int id)

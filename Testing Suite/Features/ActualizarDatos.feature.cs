@@ -152,7 +152,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("quiera confirmar estos cambios", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 17
- testRunner.Then("la aplicación me pedirá ingresar mi contraseña actual", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("la aplicación me pedirá ingresar mi contrasena actual", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

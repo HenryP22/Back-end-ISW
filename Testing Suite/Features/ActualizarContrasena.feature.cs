@@ -110,8 +110,8 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("quiero introducir una nueva contraseña", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 10
- testRunner.Then("la aplicación me indica que la contraseña debe tener más de 8 caracteres, no debe" +
-                        " contener especiales", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("la aplicación me indica que la contraseña debe tener más de ocho caracteres, no d" +
+                        "ebe contener especiales", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 11
  testRunner.And("esta no podrá ser la misma que la actual u otras anteriores", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

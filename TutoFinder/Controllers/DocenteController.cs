@@ -27,7 +27,7 @@ namespace TutoFinder.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<DocenteDtoPresentar>> GetById(int id)
+        public async Task<ActionResult<DocenteDto>> GetById(int id)
         {
             if (_DocenteService.Existencia(id) == true)
             {

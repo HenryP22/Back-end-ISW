@@ -13,7 +13,7 @@ Scenario: Lista de calificaciones
 @mytag
 Scenario: Vista de calificación
 	Given el docente desea visualizar el detalle del comentario hecho por el cliente
-	When se encuentre en la sección "Calificaciones" de su perfil
+	When se encuentre en la sección “Calificaciones” de su perfil
 	Then se le mostrará la opción para clickear el comentario del cliente
 
 @mytag

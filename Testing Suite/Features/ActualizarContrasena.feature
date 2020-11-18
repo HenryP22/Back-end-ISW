@@ -7,7 +7,7 @@
 Scenario: Cambiar mi contraseña
 	Given quiero actualizar mi contraseña
 	When  quiero introducir una nueva contraseña
-	Then la aplicación me indica que la contraseña debe tener más de 8 caracteres, no debe contener especiales	
+	Then la aplicación me indica que la contraseña debe tener más de ocho caracteres, no debe contener especiales	
 	And esta no podrá ser la misma que la actual u otras anteriores
 
 @mytag

@@ -108,7 +108,7 @@ this.ScenarioInitialize(scenarioInfo);
   testRunner.When("the tutorship has ended", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 9
-  testRunner.Then("the \"Realizar reporte\" option will appear.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+  testRunner.Then("the “Realizar reporte” option will appear.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -145,7 +145,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the tutor wants to edit wrong information in the report", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 13
- testRunner.When("they go to the option \"anterior\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("they go to the option “anterior”", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 14
  testRunner.Then("the report interface will appear with the previous information.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
@@ -185,11 +185,11 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("the tutor wants to send the report", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 18
- testRunner.When("they finish editing the report, they need to select the \"siguiente\" option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("they finish editing the report, they need to select the “siguiente” option", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 19
  testRunner.Then("the interface with the filled report will appear so they can verify the info so t" +
-                        "hey can select the \"Enviar\" option.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+                        "hey can select the “Enviar” option.", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

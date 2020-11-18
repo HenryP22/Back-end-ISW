@@ -153,7 +153,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("el docente desea visualizar el detalle del comentario hecho por el cliente", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 16
- testRunner.When("se encuentre en la sección \"Calificaciones\" de su perfil", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("se encuentre en la sección “Calificaciones” de su perfil", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 17
  testRunner.Then("se le mostrará la opción para clickear el comentario del cliente", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");

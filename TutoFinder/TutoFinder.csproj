@@ -75,6 +75,8 @@
     <Compile Remove="Migrations\20200625153125_initialize.Designer.cs" />
     <Compile Remove="Migrations\20200625174101_initialize.cs" />
     <Compile Remove="Migrations\20200625174101_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20201126010902_newdpago.cs" />
+    <Compile Remove="Migrations\20201126010902_newdpago.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

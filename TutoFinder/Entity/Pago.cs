@@ -14,5 +14,6 @@ namespace TutoFinder.Entity
         public Tutoria Tutoria { get; set; }
         public string Descripcion { get; set; }
         public string CvcTarjeta { get; set; }
+        public string NumeroCuenta { get; set; }
     }
 }

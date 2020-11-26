@@ -10,12 +10,14 @@ namespace TutoFinder.Dto
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public string Grado_academico { get; set; }
+        public string Temario { get; set; }
     }
     public class CursoUpdateDto
     {
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public string Grado_academico { get; set; }
+        public string Temario { get; set; }
     }
     public class CursoDto
     {
@@ -23,11 +25,13 @@ namespace TutoFinder.Dto
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public string Grado_academico { get; set; }
+        public string Temario { get; set; }
     }
     public class CursoDtoPresentar
     {
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public string Grado_academico { get; set; }
+        public string Temario { get; set; }
     }
 }

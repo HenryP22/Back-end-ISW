@@ -87,7 +87,7 @@ namespace TutoFinder.Service.Impl
         }
         public bool Existencia(int id)
         {
-            if (_context.Informes.Where(x => x.InformeId == id).FirstOrDefault() == null)
+            if (_context.Membresias.Where(x => x.MembresiaId == id).FirstOrDefault() == null)
             {
                 return false;
             }

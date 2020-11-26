@@ -61,11 +61,6 @@ namespace TutoFinder.Service.Impl
                 await _context.Pagos
                 .Include(x=>x.Tarjeta)
                 .Include(x => x.Tutoria)
-                .ThenInclude(x => x.Alumno)
-                .Include(x => x.Tutoria)
-                .ThenInclude(x => x.Curso)
-                .Include(x => x.Tutoria)
-                .ThenInclude(x => x.Docente)
                 .OrderByDescending(x => x.PagoId)
                 .AsQueryable()
                 .PagedAsync(page, take));
@@ -73,12 +68,8 @@ namespace TutoFinder.Service.Impl
         public async Task<PagoDto> GetById(int id)
         {
             return _mapper.Map<PagoDto>(
-                await _context.Pagos.Include(x=>x.Tarjeta).Include(x=>x.Tutoria)
-                .ThenInclude(x=>x.Alumno)
+                await _context.Pagos.Include(x=>x.Tarjeta)
                 .Include(x => x.Tutoria)
-                .ThenInclude(x => x.Curso) 
-                .Include(x => x.Tutoria)
-                .ThenInclude(x => x.Docente)
                 .SingleAsync(x => x.PagoId == id));
         }
         public bool Existencia(int id)

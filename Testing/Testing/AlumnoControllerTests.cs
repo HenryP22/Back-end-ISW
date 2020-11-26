@@ -120,7 +120,6 @@ namespace Testing.Testing
 
             //Prueba
 
-            int id = 1;
             var controller = new AlumnoServiceImpl(context, mapper);
 
             await controller.Create(AlumnoCreateDTO);

@@ -11,5 +11,6 @@ namespace TutoFinder.Entity
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public string Grado_academico { get; set; }
+        public string Temario { get; set; }
     }
 }

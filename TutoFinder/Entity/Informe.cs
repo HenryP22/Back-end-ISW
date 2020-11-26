@@ -15,6 +15,7 @@ namespace TutoFinder.Entity
         public int TutoriaId { get; set; }
         public Tutoria Tutoria { get; set; }
         public string Descripcion { get; set; }
+        public string Recomendaciones { get; set; }
         public string Fecha { get; set; }
     }
 }

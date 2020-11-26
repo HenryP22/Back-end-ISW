@@ -11,18 +11,21 @@ namespace TutoFinder.Dto
         public int TutoriaId { get; set; }
         public string Descripcion { get; set; }
         public string Fecha { get; set; }
+        public string Recomendaciones { get; set; }
     }
     public class InformeUpdateDto
     {
         public int TutoriaId { get; set; }
         public string Descripcion { get; set; }
         public string Fecha { get; set; }
+        public string Recomendaciones { get; set; }
     }
     public class InformeDto
     {
         public int InformeId { get; set; }
         public string Descripcion { get; set; }
         public string Fecha { get; set; }
+        public string Recomendaciones { get; set; }
         public int TutoriaId { get; set; }
         public TutoriaDto Tutoria { get; set; }
     }

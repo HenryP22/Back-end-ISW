@@ -11,6 +11,7 @@ namespace TutoFinder.Dto
         public int TutoriaId { get; set; }
         public string Descripcion { get; set; }
         public string CvcTarjeta { get; set; }
+        public string NumeroCuenta { get; set; }
     }
     public class PagoUpdateDto
     {
@@ -18,6 +19,7 @@ namespace TutoFinder.Dto
         public int TutoriaId { get; set; }
         public string Descripcion { get; set; }
         public string CvcTarjeta { get; set; }
+        public string NumeroCuenta { get; set; }
     }
     public class PagoDto
     {
@@ -28,10 +30,12 @@ namespace TutoFinder.Dto
         public TarjetaDto Tarjeta { get; set; }
         public int TutoriaId { get; set; }
         public TutoriaDto Tutoria { get; set; }
+        public string NumeroCuenta { get; set; }
     }
     public class PagoDtoPresentar
     {
         public string Descripcion { get; set; }
         public string CvcTarjeta { get; set; }
+        public string NumeroCuenta { get; set; }
     }
 }

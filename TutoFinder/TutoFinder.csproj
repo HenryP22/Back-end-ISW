@@ -1,0 +1,108 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200506190620_CreateTables.cs" />
+    <Compile Remove="Migrations\20200506190620_CreateTables.Designer.cs" />
+    <Compile Remove="Migrations\20200527195749_initialize.cs" />
+    <Compile Remove="Migrations\20200527195749_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200527204204_initilize.cs" />
+    <Compile Remove="Migrations\20200527204204_initilize.Designer.cs" />
+    <Compile Remove="Migrations\20200527211411_initialize.cs" />
+    <Compile Remove="Migrations\20200527211411_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200528222750_initilize.cs" />
+    <Compile Remove="Migrations\20200528222750_initilize.Designer.cs" />
+    <Compile Remove="Migrations\20200528223428_initialize.cs" />
+    <Compile Remove="Migrations\20200528223428_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200529000923_Initialize.cs" />
+    <Compile Remove="Migrations\20200529000923_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200529011017_Initialize.cs" />
+    <Compile Remove="Migrations\20200529011017_Initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200529201034_initialize.cs" />
+    <Compile Remove="Migrations\20200529201034_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200529211950_add-migration initialize.cs" />
+    <Compile Remove="Migrations\20200529211950_add-migration initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200529212629_initialize.cs" />
+    <Compile Remove="Migrations\20200529212629_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200530005226_initialzie.cs" />
+    <Compile Remove="Migrations\20200530005226_initialzie.Designer.cs" />
+    <Compile Remove="Migrations\20200530012557_initialize.cs" />
+    <Compile Remove="Migrations\20200530012557_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200530012919_initialize.cs" />
+    <Compile Remove="Migrations\20200530012919_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200530013722_initialize.cs" />
+    <Compile Remove="Migrations\20200530013722_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200530055307_initialize.cs" />
+    <Compile Remove="Migrations\20200530055307_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200530064630_initialize.cs" />
+    <Compile Remove="Migrations\20200530064630_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200530065048_initialize.cs" />
+    <Compile Remove="Migrations\20200530065048_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200531053931_initialize.cs" />
+    <Compile Remove="Migrations\20200531053931_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200531060425_add-migraion initialize.cs" />
+    <Compile Remove="Migrations\20200531060425_add-migraion initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200531061459_add-migratin initialize.cs" />
+    <Compile Remove="Migrations\20200531061459_add-migratin initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200531061526_initialize.cs" />
+    <Compile Remove="Migrations\20200531061526_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200531063002_add-migration initialize.cs" />
+    <Compile Remove="Migrations\20200531063002_add-migration initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200531162736_initialize.cs" />
+    <Compile Remove="Migrations\20200531162736_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200606044320_initialize.cs" />
+    <Compile Remove="Migrations\20200606044320_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200606180245_initialize.cs" />
+    <Compile Remove="Migrations\20200606180245_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200617172633_initialize.cs" />
+    <Compile Remove="Migrations\20200617172633_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200617174348_initialize.cs" />
+    <Compile Remove="Migrations\20200617174348_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200617174718_initialize.cs" />
+    <Compile Remove="Migrations\20200617174718_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200617195952_initialize.cs" />
+    <Compile Remove="Migrations\20200617195952_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200617234149_initialize.cs" />
+    <Compile Remove="Migrations\20200617234149_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200624031620_initialize.cs" />
+    <Compile Remove="Migrations\20200624031620_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200625150304_initialize.cs" />
+    <Compile Remove="Migrations\20200625150304_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200625153125_initialize.cs" />
+    <Compile Remove="Migrations\20200625153125_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20200625174101_initialize.cs" />
+    <Compile Remove="Migrations\20200625174101_initialize.Designer.cs" />
+    <Compile Remove="Migrations\20201126010902_newdpago.cs" />
+    <Compile Remove="Migrations\20201126010902_newdpago.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Util\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="GenFu" Version="1.6.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.6.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.10" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.4.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.6.0" />
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="https://json.schemastore.org/bower" /></VisualStudio></ProjectExtensions>
+
+
+</Project>
